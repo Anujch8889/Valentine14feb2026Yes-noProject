@@ -1,79 +1,86 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <link rel="icon" type="image/svg+xml" href="/vite.svg" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Will You Be My Valentine?</title>
-    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-    <script type="module" crossorigin src="./assets/index-C3UiuFan.js"></script>
-    <link rel="stylesheet" crossorigin href="./assets/index-CGNuSqvG.css">
-  </head>
-  <body>
-    <div class="background-overlay"></div>
-    <div id="app">
-      <audio id="bg-music" loop>
-        <source src="https://cdn.pixabay.com/download/audio/2022/10/18/audio_31c2730e64.mp3?filename=romantic-piano-124316.mp3" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-      
-      <button id="music-toggle" class="music-btn">🎵 Play Music</button>
 
-      <div class="container">
-        <!-- Hero Section -->
-        <section class="hero glass-panel">
-          <h1 class="title">Will You Be My Valentine?</h1>
-          <p class="subtitle">You make my world brighter every day... so I wanted to ask you something special.</p>
-        </section>
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Will You Be My Valentine?</title>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Outfit:wght@300;400;600&display=swap"
+    rel="stylesheet">
+  <script type="module" crossorigin src="./assets/index-FaHD6EBX.js"></script>
+  <link rel="stylesheet" crossorigin href="./assets/index-Dn0B0r80.css">
+</head>
 
-        <!-- Message Section -->
-        <section class="message glass-panel">
-          <p class="heartfelt-text">
-            "From the moment we met, everything felt different.<br>
-            You make me smile, laugh, and feel lucky every day.<br>
-            I just wanted to ask... will you be mine this Valentine?"
-          </p>
-        </section>
+<body>
+  <div class="background-overlay"></div>
+  <div id="app">
+    <audio id="bg-music" loop>
+      <source
+        src="https://cdn.pixabay.com/download/audio/2022/10/18/audio_31c2730e64.mp3?filename=romantic-piano-124316.mp3"
+        type="audio/mpeg">
+      Your browser does not support the audio element.
+    </audio>
 
-        <!-- Interactive Buttons -->
-        <section class="interaction glass-panel">
-          <div class="buttons">
-            <button id="yes-btn" class="btn yes-btn">YES ❤️</button>
-            <button id="no-btn" class="btn no-btn">NO 💔</button>
+    <button id="music-toggle" class="music-btn">🎵 Play Music</button>
+
+    <div class="container">
+      <!-- Hero Section -->
+      <section class="hero glass-panel">
+        <h1 class="title">Will You Be My Valentine?</h1>
+        <p class="subtitle">You make my world brighter every day... so I wanted to ask you something special.</p>
+      </section>
+
+      <!-- Message Section -->
+      <section class="message glass-panel">
+        <p class="heartfelt-text">
+          "From the moment we met, everything felt different.<br>
+          You make me smile, laugh, and feel lucky every day.<br>
+          I just wanted to ask... will you be mine this Valentine?"
+        </p>
+      </section>
+
+      <!-- Interactive Buttons -->
+      <section class="interaction glass-panel">
+        <div class="buttons">
+          <button id="yes-btn" class="btn yes-btn">YES ❤️</button>
+          <button id="no-btn" class="btn no-btn">NO 💔</button>
+        </div>
+        <p id="success-message" class="hidden">Yay! You just made me the happiest person ❤️</p>
+      </section>
+
+      <!-- Memories Section -->
+      <section class="memories glass-panel">
+        <h2>Our Memories</h2>
+        <div class="gallery">
+          <div class="photo-card">
+            <img src="./assets/photo1-C1wNnsHH.jpeg" alt="Our Memory 1" class="memory-photo">
+            <p>Our favorite moment</p>
           </div>
-          <p id="success-message" class="hidden">Yay! You just made me the happiest person ❤️</p>
-        </section>
-
-        <!-- Memories Section -->
-        <section class="memories glass-panel">
-          <h2>Our Memories</h2>
-          <div class="gallery">
-            <div class="photo-card">
-              <div class="placeholder-photo">❤️</div>
-              <p>Our favorite moment</p>
-            </div>
-            <div class="photo-card">
-              <div class="placeholder-photo">🥰</div>
-              <p>The smile I love</p>
-            </div>
-            <div class="photo-card">
-              <div class="placeholder-photo">✨</div>
-              <p>Memories I treasure</p>
-            </div>
+          <div class="photo-card">
+            <img src="./assets/photo2-DvMyAg6P.jpeg" alt="Our Memory 2" class="memory-photo">
+            <p>The smile I love</p>
           </div>
-        </section>
+          <div class="photo-card">
+            <img src="./assets/photo3-BIz3OFq7.jpeg" alt="Our Memory 3" class="memory-photo">
+            <p>Memories I treasure</p>
+          </div>
+        </div>
+      </section>
 
-        <!-- Quotes Section -->
-        <section class="quotes glass-panel">
-            <blockquote>"Every love story is beautiful, but ours is my favorite."</blockquote>
-            <blockquote>"You are my today and all my tomorrows."</blockquote>
-        </section>
+      <!-- Quotes Section -->
+      <section class="quotes glass-panel">
+        <blockquote>"Every love story is beautiful, but ours is my favorite."</blockquote>
+        <blockquote>"You are my today and all my tomorrows."</blockquote>
+      </section>
 
-        <!-- Closing Section -->
-        <footer class="closing glass-panel">
-          <p>No matter your answer, you’ll always be special to me.<br>But I really hope you say YES ❤️</p>
-        </footer>
-      </div>
+      <!-- Closing Section -->
+      <footer class="closing glass-panel">
+        <p>No matter your answer, you’ll always be special to me.<br>But I really hope you say YES ❤️</p>
+      </footer>
     </div>
-  </body>
+  </div>
+</body>
+
 </html>
